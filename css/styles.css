@@ -332,7 +332,7 @@ header {
 }
 
 main {
-  padding: 10vh 10vw;
+  padding: 10vh 10vw 2rem 10vw;
   min-height: calc(100vh - 60px);
 }
 
