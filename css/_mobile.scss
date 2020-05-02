@@ -1,22 +1,45 @@
 // WideScreens
 @include mediaXL {
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
+      font-size: 4rem !important;
+    }
+
+    &.sm-heading {
+      font-size: 2.3rem !important;
+    }
+  }
 }
 
 // Desktops & Laptops
 @include mediaLg {
+  h1,
+  h2,
+  h3 {
+    &.lg-heading {
+      font-size: 4rem !important;
+    }
+
+    &.sm-heading {
+      font-size: 2.3rem !important;
+    }
+  }
 }
 
 // Tablets & Small Laptops
 @include mediaMd {
   main {
-    padding: 3rem;
+    // padding: 3rem;
     align-items: center;
     text-align: center;
+    // height: 100%;
 
     h1.lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
-      font-size: 4rem;
+      // font-size: 4rem;
     }
 
     .about-info {
@@ -70,17 +93,17 @@
       padding: 0.5rem 0;
     }
   }
-  main {
-    h1,
-    h2,
-    h3 {
-      &.lg-heading {
-        font-size: 3rem;
-      }
+  // main {
+  //   h1,
+  //   h2,
+  //   h3 {
+  //     &.lg-heading {
+  //       // font-size: 3rem;
+  //     }
 
-      &.sm-heading {
-        font-size: 1.2rem;
-      }
-    }
-  }
+  //     &.sm-heading {
+  //       // font-size: 1.2rem;
+  //     }
+  //   }
+  // }
 }
