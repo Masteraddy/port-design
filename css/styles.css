@@ -286,7 +286,6 @@ body.home {
 
 .imgCover {
   text-align: left;
-  margin-top: 10vh;
 }
 
 @media (max-width: 768px) {
@@ -333,7 +332,7 @@ header {
 }
 
 main {
-  padding: 10vw;
+  padding: 10vh 10vw;
   min-height: calc(100vh - 60px);
 }
 
@@ -349,6 +348,23 @@ main .icons a:hover {
   color: #f3db01;
   -webkit-transition: all 0.7s ease-out;
   transition: all 0.7s ease-out;
+}
+
+main#home {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-info {
